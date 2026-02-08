@@ -1,0 +1,15 @@
+cxx/
+dataset/
+test/
+test1/
+.vs/
+out/
+*.pt
+*.pth
+*.onnx
+
+__pycache__/
+*.zip
+*.pdf
+
+runs/
