@@ -102,7 +102,7 @@ int split_one_lp(const cv::Mat& img, const std::vector<float>& bbox, cv::Mat& re
 	}
 
 	if (return_recs.size() == 8) {
-		return_recs.erase(return_recs.begin() + 1);
+		return_recs.erase(return_recs.begin() + 2);
 	}
 
 	cv::waitKey(0);
